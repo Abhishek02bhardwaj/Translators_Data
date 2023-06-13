@@ -10,7 +10,7 @@ def get_user_titles_with_babel_from_csv(csv_file):
         next(reader)  # Skip header row if present
         for row in reader:
             titles.append("User:" + row[1])  # Assuming usernames are in the second column
-    return titles[:30]  # Limit titles to 30
+    return titles[0:]
 
 
 def find_babel_languages(title):
@@ -23,7 +23,7 @@ def find_babel_languages(title):
     response = requests.get(url, params=params)
     if response.status_code == 200:
         content = response.text
-        babel_templates = re.findall(r"\{\{(?:#)?babel(?:[^}]*?)[^\w}](.*?)\}\}", content, re.IGNORECASE) or re.findall(r"\{\{(?:#)?Babel(?:[^}]*?)[^\w}](.*?)\}\}", content)
+        babel_templates = re.findall(r"\{\{Babel(?:[^}]*?)[^\w}](.*?)\}\}", content, re.IGNORECASE)
         if babel_templates:
             language_claims = []
             for template in babel_templates:
