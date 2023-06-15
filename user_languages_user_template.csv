@@ -1,408 +1,474 @@
-username,language
-User:Olivier LPB,['en-2']
-User:Gamesmasterg9,"['ary-0', 'mr-1', 'bn-3', 'hi-4']"
-User:Dvermeirre,"['de-1', 'en-5']"
-User:Jklamo,"['en-3', 'fr-1']"
-User:Calliopejen1,"['fr-1', 'es-3']"
-User:Jpbrenna,"['el-2', 'ar-1', 'es-2', 'la-2']"
-User:WarKosign,"['en-3', 'he-4']"
-User:Appaches,['en-3']
-User:IYY,"['ru-3', 'he-3']"
-User:CCogdill (WMF),['th-1']
-User:AlejandroGallego,"['pt-1', 'fr-2', 'en-4', 'de-2']"
-User:Fredericknoronha,"['en-4', 'hi-2', 'mr-1', 'de-0', 'gom-2', 'fr-0', 'pt-1']"
-User:Keilana,"['fr-4', 'ko-1', 'es-3', 'ar-2']"
-User:Powermelon,['en-3']
-User:Antimuonium,"['es-1', 'en-3']"
-User:Kurousagi,['en-4']
+Username,Language
+User:Olivier LPB,"['fr', 'en-2']"
+User:Gamesmasterg9,"['en', 'hi-4', 'bn-3', 'mr-1']"
+User:Dvermeirre,"['fr', 'en-5', 'de-1']"
+User:Jklamo,"['en-3', 'cs', 'sk', 'fr-1']"
+User:Calliopejen1,"['en', 'es-3', 'fr-1']"
+User:Jpbrenna,"['en', 'el-2', 'la-2', 'es-2', 'ar-1']"
+User:WarKosign,"['en-3', 'he-4', 'ru']"
+User:Appaches,"['fr', 'en-3']"
+User:IYY,"['en-N', 'he-3', 'ru-3']"
+User:AlejandroGallego,"['es', 'en-4', 'de-2', 'fr-2', 'pt-1']"
+User:Fredericknoronha,"['en-4', 'gom-2', 'hi-2', 'mr-1', 'pt-1', 'fr-0', 'de-0']"
+User:Keilana,"['en', 'fr-4', 'ko-1', 'ar-2', 'es-3']"
+User:Powermelon,"['lt', 'en-3']"
+User:Antimuonium,"['fr', 'en-3', 'es-1']"
+User:Kurousagi,"['ko', 'en-4']"
 User:Packare,['en-3']
-User:Ziko,"['nl-3', 'en-3', 'fr-1', 'eo-4', 'la-1']"
-User:Pensées de Pascal,"['nl-3', 'en-4', 'de-2', 'es-1', 'la-1', 'sk-1']"
-User:Anamdas,"['pa-1', 'en-3', 'sa-1']"
-User:ProtoplasmaKid,"['pt-2', 'en-3']"
-User:CoroneldelNorte,"['en-3', 'fr-1']"
-User:Дмитрий Кошелев,"['en-2', 'la-1', 'fr-1']"
-User:Wfplb,['en-2']
-User:Roriromrack,"['en-4', 'zh-2', 'de-4', 'ja-1', 'fr-2', 'es-2', 'pt-1']"
-User:AhmedPS,"['de-1', 'en-3']"
-User:Thue,"['de-1', 'sv-1', 'no-1', 'en-3']"
-User:Zeorymer,['pt-2']
-User:Kges1901,['ru-1']
-User:Banfield,['en-3']
-User:Jkadavoor,['en-2']
-User:Aeroid,"['en-3', 'nds-1']"
-User:Miya,['en-2']
-User:Kozam,['en-3']
-User:Liridon,"['mk-3', 'en-4']"
-User:Greenman,"['fr-1', 'xh-1', 'es-1', 'af-3', 'nl-2']"
-User:Pcgomes,"['en-4', 'es-3', 'sv-2']"
+User:Ziko,"['de', 'eo-4', 'nl-3', 'en-3', 'fr-1', 'la-1']"
+User:Pensées de Pascal,"['fr', 'en-4', 'nl-3', 'de-2', 'es-1', 'sk-1', 'la-1']"
+User:Mrtony77,"['en-N', 'es-N']"
+User:Anamdas,"['hi', 'pa', 'en-3', 'pa-1', 'sa-1']"
+User:ProtoplasmaKid,"['es', 'en-3', 'pt-2']"
+User:Gael13011,['fr']
+User:CoroneldelNorte,"['es-N', 'en-3', 'fr-1']"
+User:Дмитрий Кошелев,"['ru-N', 'en-2', 'fr-1', 'la-1']"
+User:Wfplb,"['en-2', 'fr']"
+User:Roriromrack,"['ko', 'de-4', 'en-4', 'fr-2', 'es-2', 'zh-2', 'ja-1', 'pt-1']"
+User:AhmedPS,"['ar', 'en-3', 'de-1']"
+User:Oleg Bor,['ru']
+User:Thue,"['da', 'en-3', 'de-1', 'no-1', 'sv-1']"
+User:Zeorymer,"['en-N', 'pt-2']"
+User:Kges1901,"['en', 'ru-1']"
+User:永続繁栄,['ja']
+User:Banfield,"['es', 'en-3']"
+User:Jkadavoor,"['ml', 'en-2']"
+User:Aeroid,"['de', 'en-3', 'nds-1']"
+User:Miya,"['ja', 'en-2']"
+User:Kozam,"['fr', 'en-3']"
+User:Liridon,"['sq', 'en-4', 'mk-3']"
+User:Sorenhk,['da']
+User:Greenman,"['en', 'af-3', 'nl-2', 'fr-1', 'es-1', 'xh-1']"
+User:Guy of india,['ta']
+User:Pcgomes,"['pt', 'en-4', 'es-3', 'sv-2']"
 User:MShefa,"['fa-2', 'es-4']"
-User:Koavf,"['pt-1', 'de-1', 'es-2']"
-User:Чръный человек,"['cu-1', 'en-2']"
-User:Kronhjorten,"['sv-4', 'de-1', 'fr-2', 'es-3']"
-User:AragonChristopherR17Z,"['es-3', 'en-5']"
+User:Koavf,"['en', 'es-2', 'de-1', 'pt-1']"
+User:Kronhjorten,"['en', 'sv-4', 'es-3', 'fr-2', 'de-1']"
+User:AragonChristopherR17Z,"['en-5', 'es-3']"
 User:OtterAM,['crh-0']
-User:Seagull123,"['de-1', 'fr-2']"
-User:Fundriver,"['de-4', 'en-3', 'fr-1']"
-User:Marko Sarajevo,"['mk-2', 'ru-2', 'es-3', 'en-5']"
-User:AMPERIO,"['fr-3', 'en-4']"
+User:Seagull123,"['en', 'fr-2', 'de-1']"
+User:Fundriver,"['en-3', 'de-4', 'als', 'fr-1']"
+User:Marko Sarajevo,"['sr', 'en-5', 'es-3', 'mk-2', 'ru-2']"
+User:TASAIRES,['es']
+User:AMPERIO,"['es', 'gl', 'en-4', 'fr-3']"
 User:Mcrass,"['de-5', 'en-2']"
-User:Jean Eti,"['fr-3', 'en-3', 'la-1']"
-User:Dig deeper,"['fr-2', 'en-5']"
+User:Jean Eti,"['en-3', 'fr-3', 'la-1']"
+User:Dig deeper,"['en-N', 'en-5', 'fr-2']"
 User:Yasamin77,['en-4']
-User:Л.П. Джепко,['en-4']
-User:AndrewTheLott,"['nl-4', 'fr-3']"
-User:Diego Moya,['en-3']
-User:I JethroBT,['ja-2']
-User:Fjmustak,"['es-1', 'he-1', 'fr-2']"
-User:Timpo,['es-1']
-User:LeFaune,"['ca-1', 'en-4', 'de-2', 'es-0']"
-User:Natalie.Desautels,"['de-1', 'es-3']"
-User:丘明利,"['ms-4', 'id-3', 'eo-2', 'en-3', 'ta-1', 'mg-3', 'th-1', 'ar-1', 'haw-1', 'hak-1', 'ja-1', 'zh-5', 'sg-3', 'af-1']"
-User:Guillermo2149,"['it-2', 'zh-1', 'pt-4', 'en-5']"
-User:Gamaliel,['es-2']
-User:XPanettaa,"['de-1', 'fr-1']"
-User:Kiteinthewind,"['fr-2', 'es-3']"
-User:Gerardo Noriega,"['it-2', 'fr-2', 'en-3']"
-User:FactualCollector7d1,['fr-1']
-User:Zak-mieleur,"['arz-2', 'es-1', 'en-3']"
-User:Justinrleung,['ang-3']
-User:Sjomadhr,"['en-4', 'de-2']"
+User:Л.П. Джепко,"['ru', 'en-4']"
+User:AndrewTheLott,"['en-N', 'nl-4', 'fr-3']"
+User:Diego Moya,"['es', 'en-3']"
+User:Abbedabb,['sv']
+User:I JethroBT,"['en', 'ja-2']"
+User:Fjmustak,"['en', 'ar', 'fr-2', 'es-1', 'he-1']"
+User:Timpo,"['en-N', 'es-1']"
+User:LeFaune,"['fr', 'en-4', 'de-2', 'ca-1', 'es-0']"
+User:Natalie.Desautels,"['fr-N', 'en-N', 'es-3', 'de-1']"
+User:Lifeinfluxus,"['en-N', 'ja-N']"
+User:丘明利,"['zh-5', 'ms-4', 'id-3', 'en-3', 'eo-2', 'ja-1', 'ta-1', 'th-1', 'af-1', 'ar-1', 'hak-1', 'haw-1', 'en-ms']"
+User:Guillermo2149,"['es-N', 'gn-N', 'en-5', 'pt-4', 'it-2', 'zh-1']"
+User:Gamaliel,"['en', 'es-2']"
+User:XPanettaa,"['nl', 'en', 'de-1', 'fr-1']"
+User:Fujiiy,['es']
+User:Kiteinthewind,"['en', 'zh', 'zh-yue', 'es-3', 'fr-2']"
+User:Seav,"['en', 'tl']"
+User:Froggywam,['en-N']
+User:Gerardo Noriega,"['es', 'en-3', 'fr-2', 'it-2']"
+User:Pmaccabe,['en']
+User:MartinPoulter,['en']
+User:Randeerjayasekara,['si']
+User:0xF8E8,['en-N']
+User:FactualCollector7d1,"['en', 'fr-1']"
+User:Davidbuddy9,['en-N']
+User:FuhrstSgt,['sr']
+User:Zak-mieleur,"['ar', 'ary', 'arz-2', 'en-3', 'fr', 'es-1']"
+User:Sjomadhr,"['fi', 'sv', 'en-4', 'de-2']"
 User:MartinZ,['en-4']
-User:Omert33,"['it-1', 'es-1', 'fr-3']"
-User:IBayern,"['en-3', 'sco-2', 'es-0', 'ja-1', 'fr-0', 'de-1', 'ru-0', 'pl-0', 'ko-0']"
-User:Simartampua,"['en-2', 'ms-2']"
-User:Phokhamvone,"['th-3', 'en-2', 'de-1']"
-User:The Stray Dog,"['glk-4', 'en-4', 'mzn-4', 'arz-1', 'ku-1', 'he-3', 'tg-4']"
-User:Fluffernutter,"['it-1', 'es-2']"
+User:Omert33,"['en', 'he', 'fr-3', 'es-1', 'it-1']"
+User:IBayern,"['zh', 'en-3', 'zh-classical-2', 'sco-2', 'de-1', 'ja-1', 'es-0', 'fr-0', 'ko-0', 'ru-0', 'pl-0']"
+User:Simartampua,"['id', 'en-2', 'ms-2']"
+User:Phokhamvone,"['fr', 'th-3', 'en-2', 'de-1']"
+User:The Stray Dog,"['fa-N', 'mzn-4', 'tg-4', 'en-4', 'glk-4', 'ku-1', 'he-3', 'arz-1']"
+User:Fluffernutter,"['es-2', 'it-1']"
 User:Miyika,"['ar-2', 'ja-3']"
-User:ツバル,['en-1']
-User:Enzomartinelli,['als-3']
+User:ツバル,"['ja', 'en-1']"
 User:Kashmiri,['en-4']
-User:Zsoozsy,"['fr-3', 'en-4', 'he-3']"
-User:Alexgrim,"['en-4', 'es-2', 'ht-3']"
-User:TadejM,"['fr-3', 'de-3', 'en-4', 'it-1']"
-User:Rlandmann,"['it-1', 'fr-1']"
+User:Zsoozsy,"['hu', 'en-4', 'he-3', 'fr-3']"
+User:Alexgrim,"['fr', 'en-4', 'es-2', 'ht-3']"
+User:TadejM,"['sl', 'en-4', 'fr-3', 'de-3', 'it-1']"
+User:Rlandmann,"['en-N', 'it-1', 'fr-1']"
 User:Shyamal,['en-5']
-User:Nsaa,"['en-2', 'da-2', 'sv-1', 'de-1']"
-User:Aboluay,"['ar-2', 'en-3']"
-User:Greyshark09,"['ar-3', 'en-4']"
-User:Sturm,"['en-2', 'es-1', 'it-1']"
-User:Mr. Stradivarius,['ja-4']
-User:TimeForLunch,['it-3']
-User:Popo le Chien,"['en-4', 'zh-1', 'de-2', 'es-3', 'it-1']"
-User:David Xuang,['en-3']
-User:Iranianson,"['ar-1', 'en-3', 'fr-1', 'az-2']"
-User:Champion,['zh-2']
-User:Keizers,"['it-2', 'nl-4', 'el-1', 'fr-3', 'es-4', 'en-5', 'pt-2', 'de-3', 'ro-1', 'ru-2']"
-User:Azael Hernández,['en-2']
+User:Nsaa,"['no', 'en-2', 'da-2', 'sv-1', 'de-1']"
+User:Aboluay,"['en-3', 'ar-2']"
+User:Greyshark09,"['en-4', 'ar-3']"
+User:Sturm,"['pt-N', 'en-2', 'it-1', 'es-1']"
+User:Mr. Stradivarius,"['en', 'ja-4']"
+User:Rickjpelleg,"['en', 'he']"
+User:TimeForLunch,"['en', 'it-3']"
+User:Popo le Chien,"['fr', 'en-4', 'es-3', 'de-2', 'zh-1', 'it-1']"
+User:David Xuang,"['zh-xi'nan', 'en-3']"
+User:Iranianson,"['en-3', 'fa', 'az-2', 'fr-1', 'ar-1']"
+User:Champion,"['zh', 'zh-2', 'en']"
+User:Keizers,"['en-5', 'nl-4', 'es-4', 'de-3', 'fr-3', 'pt-2', 'ru-2', 'it-2', 'el-1', 'ro-1']"
+User:Azael Hernández,"['es', 'en-2']"
 User:Frank R 1981,['en-4']
-User:AlexTref871,['en-3']
-User:Mazzz01,['fr-1']
-User:D. Benjamin Miller,"['fr-3', 'la-2']"
-User:United Union,"['de-5', 'hr-5', 'en-5']"
-User:Mz7,['de-2']
-User:Renamed user awfwvowjvwrvnwio,['en-5']
-User:Rystheguy,"['ko-1', 'fr-2']"
-User:Loiseaulybre,['en-3']
-User:Info2Learn,['es-2']
-User:Ibrahim.ID,"['en-3', 'fr-1']"
-User:OriginalOldMan,"['fr-4', 'ru-1']"
-User:FæɹHaad,"['fa-5', 'ar-2', 'en-2']"
-User:Ww2censor,"['de-1', 'fr-1']"
-User:Sasuke Sarutobi,"['it-1', 'de-2', 'fr-1']"
-User:Sekicho,"['es-1', 'zh-1', 'ja-3']"
-User:Ce Ele 415,['en-3']
-User:Naval Scene,"['en-4', 'jv-3', 'ms-3', 'su-2', 'ace-1']"
+User:AlexTref871,['en-3|']
+User:Mazzz01,"['en', 'fr-1']"
+User:D. Benjamin Miller,"['en-N', 'fr-3', 'la-2']"
+User:United Union,"['en-5', 'de-5', 'hr-5']"
+User:Mz7,"['en', 'de-2']"
+User:Renamed user awfwvowjvwrvnwio,"['pt', 'en-5']"
+User:Rystheguy,"['en', 'fr-2', 'ko-1']"
+User:Loiseaulybre,"['fr', 'en-3']"
+User:Info2Learn,"['en', 'es-2']"
+User:Ibrahim.ID,"['ar', 'en-3', 'fr-1']"
+User:OriginalOldMan,"['en-N', 'en-US', 'fr-4', 'ru-1']"
+User:FæɹHaad,"['fa', 'fa-5', 'en-2', 'ar-2']"
+User:Ww2censor,"['en-N', 'en-Ire', 'de-1', 'fr-1']"
+User:Sasuke Sarutobi,"['en', 'de-2', 'fr-1', 'it-1']"
+User:Sekicho,"['en', 'ja-3', 'es-1', 'zh-1']"
+User:Ce Ele 415,"['es', 'ca', 'en-3']"
+User:Naval Scene,"['id', 'min', 'en-4', 'ms-3', 'jv-3', 'su-2', 'ace-1']"
 User:Uksharma3,['en-3']
-User:Lillingen,"['en-3', 'da-3', 'nn-3', 'de-1', 'sv-2']"
-User:Tylusine,['en-5']
-User:Effeietsanders,['en-3']
-User:YanikB,"['de-1', 'es-2', 'en-3']"
-User:Gdominik100,"['ru-1', 'en-3', 'es-1', 'mn-0', 'eo-0', 'ko-0']"
-User:Darylgolden,['zh-2']
-User:CherryPie94,['en-4']
-User:Nicolas Perrault III,"['en-4', 'ru-1', 'no-2', 'es-3', 'it-1', 'de-3']"
-User:Brackenheim,"['en-1', 'la-1']"
-User:Marcetw,"['en-2', 'es-3']"
-User:أنور,"['en-3', 'ar-5']"
-User:Sjö,"['no-2', 'de-1', 'da-2', 'en-4']"
-User:Che12Guevara,"['en-4', 'hi-1']"
-User:Andsam,"['de-1', 'sv-3', 'en-4']"
-User:Mr.Liam.Darcy,"['de-3', 'fr-1']"
-User:Gibbja,['fr-2']
-User:Danny-w,"['en-3', 'fr-1', 'it-1', 'es-1', 'de-1']"
-User:YuriGagrin12,"['eo-2', 'it-3']"
-User:Tomer T,['en-4']
-User:PaterMcFly,"['en-4', 'fr-2']"
-User:Braindot4,"['fr-2', 'en-5']"
-User:Gnoeee,['en-2']
-User:Nick Rokk 96,['en-3']
-User:Willuconquer,['sco-0']
-User:Hylblog,"['zh-4', 'en-2', 'ja-0']"
-User:Kaliforniyka,"['fr-4', 'ru-3', 'bg-3']"
-User:Bdonan,['de-2']
-User:Debashish,"['en-3', 'hi-3']"
-User:Jose Mathew C,['ta-1']
-User:Smihael,"['de-3', 'ru-3', 'en-3']"
-User:T8612,['en-4']
-User:Hickland,['fr-3']
-User:Flycatchr,"['es-1', 'ar-2']"
-User:Gunkarta,"['en-3', 'fr-1', 'ms-3', 'jv-2', 'ja-1']"
-User:MatthewS.,"['eo-1', 'ar-5', 'mt-1', 'he-1', 'fr-2', 'de-1']"
-User:Mcampany,"['zh-1', 'ja-4']"
-User:Shadess,['en-4']
-User:Nehme1499,"['es-1', 'ar-1']"
-User:Ergo Sum,"['la-3', 'es-2', 'it-1']"
-User:Starblind,"['de-3', 'es-1', 'fr-1']"
-User:Saung Tadashi,"['ja-1', 'en-3']"
-User:Sreejithk2000,['en-2']
-User:Dr-Taher,['en-4']
-User:Mardetanha,"['tr-2', 'en-3', 'ar-1']"
+User:Lillingen,"['en-3', 'no', 'nn-3', 'da-3', 'sv-2', 'de-1']"
+User:Tylusine,"['en', 'en-5']"
+User:Effeietsanders,"['nl', 'en-3']"
+User:YanikB,"['fr', 'en-3', 'es-2', 'de-1']"
+User:Gdominik100,"['pl', 'ru-1', 'en-3', 'es-1', 'eo-0', 'ko-0', 'mn-0']"
+User:Darylgolden,"['en', 'zh-2']"
+User:TheRichic,['es-N']
+User:Nicolas Perrault III,"['fr', 'en-4', 'de-3', 'es-3', 'no-2', 'it-1', 'ru-1']"
+User:Brackenheim,"['de', 'en-1', 'la-1']"
+User:Marcetw,"['es-3', 'en-2']"
+User:أنور,"['ar-5', 'en-3']"
+User:Sjö,"['sv', 'en-4', 'de-1', 'da-2', 'no-2']"
+User:Che12Guevara,"['bn', 'en-4', 'hi-1']"
+User:Heliosxeros,"['en', 'zh']"
+User:Thureinminnoo,"['en', 'my', 'ja']"
+User:Andsam,"['fi', 'en-4', 'sv-3', 'de-1']"
+User:Mr.Liam.Darcy,"['en', 'de-3', 'fr-1']"
+User:Ranjithsiji,['ml']
+User:Starnutoditopo,['it']
+User:Gibbja,"['en', 'fr-2']"
+User:YuriGagrin12,"['en-N', 'eo-2', 'it-3']"
+User:Tomer T,"['he', 'en-4']"
+User:PaterMcFly,"['de', 'en-4', 'fr-2']"
+User:Braindot4,"['en-5', 'ar', 'fr-2']"
+User:Gnoeee,"['ml', 'en-2']"
+User:Veillg1,['fr-N']
+User:12afser12,['ta']
+User:Nick Rokk 96,"['el', 'en-3']"
+User:Hylblog,"['en-2', 'zh-4', 'ja-0']"
+User:Kaliforniyka,"['en', 'bg-3', 'fr-4', 'ru-3']"
+User:Gorpik,['es']
+User:Bdonan,"['en', 'de-2']"
+User:Superkid761,['en']
+User:Debashish,"['bn', 'hi-3', 'en-3']"
+User:Jose Mathew C,"['ml', 'ta-1']"
+User:Smihael,"['sl', 'en-3', 'de-3', 'ru-3']"
+User:T8612,"['fr-N', 'en-4']"
+User:Hickland,"['en', 'fr-3']"
+User:Flycatchr,"['en', 'fr', 'ar-2', 'es-1']"
+User:Gunkarta,"['id', 'su', 'en-3', 'jv-2', 'fr-1', 'ja-1']"
+User:MatthewS.,"['arz-N', 'en-N', 'ar-5', 'fr-2', 'de-1', 'he-1', 'eo-1', 'mt-1']"
+User:Mcampany,"['en-N', 'ja-4', 'zh-1']"
+User:Adam37,['en']
+User:Shadess,"['fi-N', 'en-4']"
+User:Nehme1499,"['it-N', 'en-NL', 'es-1', 'ar-1']"
+User:Fallbackintoreality,['sq']
+User:Ergo Sum,"['en', 'la-3', 'es-2', 'it-1']"
+User:Starblind,"['en', 'de-3', 'es-1', 'fr-1']"
+User:Franz710,"['pam', 'tl']"
+User:Saung Tadashi,"['pt', 'en-3', 'ja-1']"
+User:Sreejithk2000,"['ml', 'en-2']"
+User:Dr-Taher,"['ar', 'en-4']"
+User:Mardetanha,"['fa', 'az', 'en-3', 'tr-2', 'ar-1']"
 User:TobbiM,['en-5']
 User:PoliceSheep99,['es-2']
-User:Amit91803,"['en-4', 'fr-1']"
-User:Juxlos,['en-5']
-User:GregZak,['en-3']
-User:Firos ak,['en-2']
-User:TMagen,['als-2']
-User:TJMSmith,['es-3']
-User:Yasunorihayashi,"['de-1', 'en-4']"
-User:Pep-k,"['pl-1', 'es-1', 'fr-2', 'en-3']"
-User:Neworsy,"['de-4', 'fr-3', 'en-3']"
-User:Discoglasses,['fr-3']
+User:Amit91803,"['he', 'en-4', 'fr-1']"
+User:Juxlos,"['id', 'en-5']"
+User:GregZak,"['ru', 'en-3']"
+User:Firos ak,"['ml', 'en-2']"
+User:TJMSmith,"['en-N', 'es-3']"
+User:Yasunorihayashi,"['ja', 'en-4', 'de-1']"
+User:Pep-k,"['it', 'en-3', 'fr-2', 'es-1', 'pl-1']"
+User:Neworsy,"['es', 'de-4', 'fr-3', 'en-3']"
+User:Discoglasses,"['en-N', 'fr-3']"
 User:Mattwillmarron,['fr-2']
-User:Swarabakti,"['en-3', 'jv-2', 'su-1', 'es-1', 'ms-4']"
-User:Vargmali,"['de-2', 'en-3']"
-User:Ата,['en-3']
-User:Pinecone23,['de-2']
-User:Babelia,['en-2']
-User:ჯეო,"['ru-1', 'en-3', 'fr-1']"
-User:UserNumber,"['lo-1', 'as-4', 'ar-2', 'en-5', 'ur-3', 'fa-2', 'hi-3']"
-User:Onur,['en-4']
-User:Sophiajoanne,"['ko-1', 'en-3', 'zh-3']"
-User:BokicaK,"['ru-1', 'en-3', 'hu-1']"
-User:Ogat,['en-3']
-User:Egil,"['en-3', 'sv-1', 'de-1', 'da-1', 'nn-3']"
-User:RetroCraft314,['fr-2']
-User:Monniasza,"['de-1', 'en-3']"
-User:Teseo,"['en-1', 'fr-2', 'la-1']"
-User:VulcanSphere,"['nl-3', 'en-4', 'ja-2']"
-User:Mhare,"['sh-4', 'en-2']"
-User:Jorge Stolfi,"['es-2', 'it-2', 'fr-1', 'en-3']"
-User:Mistakefinder,['fr-3']
-User:Tukulti65,['en-3']
-User:Akumiszcza,['en-3']
-User:Rosguill,"['tr-2', 'ca-2', 'de-3', 'ja-1', 'it-3', 'vi-1', 'he-2', 'ar-1', 'ru-2', 'fr-3', 'yi-3']"
-User:Weatherextremes,['en-5']
+User:Swarabakti,"['en-3', 'jv-2', 'su-1', 'es-1']"
+User:Vargmali,"['sq', 'de-2', 'en-3']"
+User:Ата,"['uk', 'en-3']"
+User:Sadenar40000,['fr']
+User:Tris T7,['th']
+User:Babelia,"['es', 'en-2']"
+User:ჯეო,"['ka', 'en-3', 'ru-1', 'fr-1']"
+User:Asimtanveer,['ur']
+User:UserNumber,"['bn', 'en-5', 'as-4', 'ur-3', 'hi-3', 'ar-2', 'fa-2', 'lo-1']"
+User:Onur,"['tr', 'en-4']"
+User:Sophiajoanne,"['en-3', 'zh-3', 'ko-1']"
+User:BokicaK,"['en-3', 'sr', 'ru-1', 'hu-1']"
+User:Ogat,"['pt-BR', 'en-3']"
+User:Egil,"['no', 'en-3', 'nn-3', 'da-1', 'sv-1', 'de-1']"
+User:RetroCraft314,"['en', 'fr-2']"
+User:Monniasza,"['en-3', 'pl', 'de-1']"
+User:Teseo,"['it-N', 'en-1', 'la-1', 'fr-2']"
+User:VulcanSphere,"['nl-3', 'id', 'en-4', 'ja-2']"
+User:OnBeyondZebrax,['en']
+User:Mhare,"['bs', 'sh-4', 'en-2']"
+User:Jorge Stolfi,"['pt', 'vec', 'en-3', 'es-2', 'it-2', 'fr-1']"
+User:Sailoratlantis,"['pt-BR', 'simple-4']"
+User:Tukulti65,"['it', 'en-3']"
+User:Akumiszcza,"['pl', 'en-3']"
+User:Rosguill,"['es', 'en', 'de-3', 'fr-3', 'it-3', 'yi-3', 'ru-2', 'he-2', 'tr-2', 'ca-2', 'ja-1', 'vi-1', 'ar-1']"
+User:Weatherextremes,"['el', 'en-5']"
 User:Leo hk1123,['en-2']
-User:Relic5064,"['en-2', 'ja-1', 'ru-1']"
-User:GhanimSharifi,"['mt-4', 'ckb-3', 'it-3', 'ku-3', 'fr-5', 'fa-3']"
-User:Secretaria,['en-4']
-User:Piotr Bart,"['ru-2', 'en-3']"
-User:Varavour,"['am-1', 'fr-2']"
-User:Yihyetov,"['yi-4', 'he-1', 'uk-1', 'en-3']"
-User:AtlanteanAstorian,"['pt-5', 'en-4', 'es-1']"
-User:Yivan000,"['ilo-2', 'en-4', 'tl-4']"
+User:Relic5064,"['zh', 'en-2', 'ru-1', 'ja-1']"
+User:GhanimSharifi,"['en', 'ar', 'fr-5', 'fa-3', 'it-3', 'ku-3', 'ckb-3', 'mt-4']"
+User:Secretaria,"['pt', 'en-4']"
+User:Piotr Bart,"['pl', 'en-3', 'simple-4', 'ru-2']"
+User:Varavour,"['en', 'fr-2', 'am-1']"
+User:Yihyetov,"['en-3', 'ru', 'yi-4', 'uk-1', 'he-1']"
+User:Verosaurus,['id']
+User:AtlanteanAstorian,"['en-4', 'pt-5', 'es-1']"
+User:Yivan000,"['en-4', 'tl-4', 'ilo-2']"
 User:Yair M,['en-3']
-User:Bkissin,"['fr-3', 'he-1']"
-User:Robertsky,"['ko-1', 'ja-1', 'zh-3']"
-User:Hammad,"['hi-3', 'he-1', 'pnb-4']"
-User:Manudouz,['en-3']
-User:Peter Isotalo,"['en-4', 'nl-1', 'es-1', 'ja-1', 'ru-1', 'no-2', 'de-2', 'zh-1', 'da-2']"
-User:NaidNdeso,"['nl-2', 'fr-3', 'en-3']"
-User:TCY,['en-3']
-User:Chaetodipus,"['es-2', 'eo-2', 'de-1']"
-User:Ivan Humphrey,"['jv-2', 'ca-2', 'en-3', 'bjn-1', 'ms-3', 'fr-1', 'ace-1', 'su-1', 'min-2', 'bug-2', 'zh-2', 'sg-1', 'de-1']"
-User:Ruwaym,"['en-2', 'fa-4', 'ckb-1']"
-User:Sentausa,"['fr-1', 'en-3']"
-User:Laketown,"['en-3', 'sv-2', 'de-1']"
-User:Telikalive,['en-4']
-User:Memelord0,['en-3']
-User:Yakudza,"['ru-3', 'en-1']"
-User:Pdekyvere,"['es-1', 'de-2', 'it-1', 'fr-3', 'en-3']"
-User:Kevjassintkevin,"['de-1', 'it-1', 'en-3']"
-User:PubliusJ,"['lad-2', 'fr-3', 'it-1', 'ca-2']"
-User:MrInfo2012,['en-3']
-User:Matbla1,"['ru-0', 'es-1', 'en-5', 'de-2', 'ja-0', 'nl-3']"
-User:BobEret,"['es-2', 'de-2']"
-User:Battleofalma,"['it-2', 'no-1', 'fr-3', 'da-2', 'pl-1']"
-User:Cocô53,"['en-4', 'eu-1', 'eo-3', 'pt-2', 'cy-0', 'de-1']"
-User:Briantin de Montrei,"['es-1', 'sco-1', 'oc-2', 'fr-2', 'it-1', 'frp-1', 'ca-1']"
-User:Uffda608,"['es-2', 'da-2']"
-User:Emigré55,"['en-4', 'de-4', 'ru-2']"
-User:Balajijagadesh,"['te-1', 'hi-2', 'en-3']"
-User:陈鱼,['en-5']
-User:YTRK,['en-4']
-User:Golden,"['en-5', 'ru-3', 'fr-1', 'tr-4']"
-User:Anjen01,"['en-4', 'it-1', 'ja-0', 'fr-3', 'el-2']"
-User:Aesuithiel,['en-5']
-User:Bsskchaitanya,"['hi-5', 'ml-3', 'fr-5', 'ur-2', 'kn-3', 'sa-5', 'fi-1']"
-User:Tcr25,"['es-2', 'sv-1', 'nl-1', 'ru-0', 'no-1', 'de-2', 'fr-2', 'is-0', 'da-1', 'ca-1']"
-User:Ȝeſtikl,"['zh-2', 'es-1']"
-User:Berke330,"['en-4', 'fr-3', 'el-1']"
-User:DHN,"['en-5', 'vi-3', 'en-4']"
-User:PointlessUsername,"['en-4', 'de-1']"
-User:Yann,"['hi-2', 'en-4', 'gu-1']"
-User:Daniel the Monk,"['la-3', 'it-2', 'pt-1', 'de-2', 'fr-3']"
-User:David1907hif,['en-4']
-User:Demoxica,"['fr-4', 'it-1']"
-User:Docentation,"['es-1', 'la-1', 'fr-2', 'sg-2']"
+User:Bkissin,"['en', 'fr-3', 'he-1']"
+User:Robertsky,"['en', 'en-sg', 'zh-3', 'ja-1', 'ko-1']"
+User:Hammad,"['ur', 'hi-3', 'he-1', 'pnb-4']"
+User:Manudouz,"['fr', 'en-3']"
+User:Peter Isotalo,"['sv', 'en-4', 'no-2', 'da-2', 'de-2', 'ru-1', 'nl-1', 'es-1', 'zh-1', 'ja-1']"
+User:NaidNdeso,"['id', 'jv', 'en-3', 'fr-3', 'nl-2']"
+User:Llewee,['en']
+User:Saintfevrier,"['en', 'el']"
+User:TCY,"['fr', 'en-3']"
+User:Chaetodipus,"['en', 'eo-2', 'es-2', 'de-1']"
+User:Franklyzzm,"['zh', 'en']"
+User:Ivan Humphrey,"['id', 'en-3', 'ms-3', 'de-1', 'fr-1', 'min-2', 'jv-2', 'bug-2', 'ace-1', 'bjn-1', 'su-1', 'zh-2']"
+User:Ruwaym,"['ar', 'fa-4', 'ckb-1', 'en-2']"
+User:MaqsoodPoovadka,['ml']
+User:Sentausa,"['id', 'en-3', 'fr-1']"
+User:Laketown,"['da', 'sv-2', 'de-1', 'en-3']"
+User:Telikalive,"['en-4', 'fr-N']"
+User:Memelord0,"['ar', 'en-3']"
+User:Yakudza,"['uk', 'ru-3', 'en-1']"
+User:Pdekyvere,"['de-2', 'en-3', 'nl', 'fr-3', 'vls', 'it-1', 'es-1']"
+User:Kevjassintkevin,"['sq', 'en-3', 'de-1', 'it-1']"
+User:PubliusJ,"['es', 'en', 'fr-3', 'lad-2', 'ca-2', 'it-1']"
+User:MrInfo2012,"['fa', 'en-3']"
+User:Terramorphous,['en']
+User:Matbla1,"['fr', 'en-5', 'nl-3', 'de-2', 'es-1', 'ja-0', 'ru-0']"
+User:BobEret,"['en-N', 'de-2', 'es-2']"
+User:Battleofalma,"['da-2', 'no-1', 'pl-1', 'fr-3', 'it-2']"
+User:Cocô53,"['fr', 'it', 'en-4', 'eo-3', 'pt-2', 'de-1', 'eu-1', 'cy-0']"
+User:Tacomatron,['en-gb']
+User:Briantin de Montrei,"['en', 'fr-2', 'oc-2', 'ca-1', 'es-1', 'frp-1', 'it-1', 'sco-1']"
+User:Uffda608,"['en', 'da-2', 'es-2']"
+User:Emigré55,"['fr', 'en-4', 'de-4', 'ru-2']"
+User:Balajijagadesh,"['ta', 'en-3', 'ta-N', 'hi-2', 'te-1']"
+User:陈鱼,"['en-5|nocat=true', 'zh-N|nocat=true']"
+User:YTRK,"['ja', 'en-4']"
+User:Golden,"['en-5', 'az', 'tr-4', 'ru-3', 'fr-1']"
+User:Anjen01,"['en-4', 'sq', 'fr-3', 'el-2', 'it-1', 'ja-0']"
+User:Aesuithiel,"['fa', 'en-5']"
+User:Bsskchaitanya,"['te', 'en', 'ta', 'hi-5', 'sa-5', 'fr-5', 'kn-3', 'ml-3', 'ur-2', 'fi-1']"
+User:Tcr25,"['en-N', 'de-2', 'es-2', 'fr-2', 'ca-1', 'da-1', 'nl-1', 'no-1', 'sv-1', 'is-0', 'ru-0']"
+User:Ȝeſtikl,"['en', 'zh-2', 'es-1']"
+User:Berke330,"['en-4', 'fr-3', 'tr', 'el-1']"
+User:DHN,"['en-5', 'en-4', 'vi', 'vi-3']"
+User:RuthStevens,"['en', 'he', 'hu']"
+User:PointlessUsername,"['th', 'en-4', 'de-1']"
+User:Yann,"['fr', 'en-4', 'hi-2', 'gu-1']"
+User:Daniel the Monk,"['en', 'es', 'fr-3', 'la-3', 'de-2', 'it-2', 'pt-1']"
+User:David1907hif,"['sv', 'en-4']"
+User:Demoxica,"['tr', 'en', 'fr-4', 'it-1']"
+User:Docentation,"['en-gb', 'fr-2', 'es-1', 'la-1']"
 User:عماد الدين المقدسي,['en-4']
-User:Glomerata,['en-2']
-User:Chrisrabinson,"['fa-5', 'de-2', 'la-1', 'ar-2', 'tr-1', 'tg-3']"
-User:Kutay,['en-5']
-User:Zio27,"['en-2', 'vec-1']"
-User:Berchanhimez,['es-3']
-User:Kulawik.pl,"['de-1', 'en-3']"
+User:Glomerata,"['cs', 'en-2']"
+User:Chrisrabinson,"['en', 'ar-2', 'de-2', 'fa-5', 'la-1', 'tr-1', 'tg-3']"
+User:Kutay,['tr']
+User:Vicharam,['ml']
+User:Zio27,"['it', 'vec-1', 'en-2']"
+User:NeilAppleton,"['en', 'hu']"
+User:Berchanhimez,"['en', 'es-3']"
+User:Kulawik.pl,"['pl', 'en-3', 'de-1']"
 User:Sdkb,['en-5']
-User:Robot8A,"['en-5', 'el-1', 'de-2', 'ca-2']"
-User:Alicewriteswrongs,"['es-2', 'fr-3']"
-User:Manchesterunited1234,"['en-2', 'es-1', 'fr-2']"
-User:Colin dm,['pt-2']
-User:Ahmetlii,"['az-4', 'ku-1', 'en-3']"
-User:Ponor,"['en-4', 'de-2', 'it-1', 'ru-1', 'sr-3', 'bs-3']"
-User:Purin128AL,"['zh-4', 'en-4']"
-User:Lou Crazy,"['en-4', 'es-1', 'eo-0', 'la-1', 'fr-3']"
-User:Ajeeshkumar4u,"['hi-2', 'ta-1']"
-User:BunnyyHop,['ru-2']
+User:Robot8A,"['es-N', 'en-5', 'de-2', 'ca-2', 'el-1']"
+User:Alicewriteswrongs,"['fr-3', 'es-2']"
+User:Manchesterunited1234,"['fr-2', 'en-2', 'es-1']"
+User:Colin dm,"['en', 'pt-2']"
+User:Ahmetlii,"['en-3', 'tr', 'az-4', 'ku-1']"
+User:Ponor,"['hr', 'en-4', 'sr-3', 'bs-3', 'de-2', 'it-1', 'ru-1']"
+User:Purin128AL,"['en-4', 'zh-4']"
+User:Lou Crazy,"['it', 'en-4', 'fr-3', 'es-1', 'la-1', 'eo-0']"
+User:Ajeeshkumar4u,"['ml', 'hi-2', 'ta-1']"
+User:Jay Hodec,['sl']
+User:BunnyyHop,"['en', 'ru-2']"
+User:Oaktree b,['en-ca']
 User:Firestar464,['en-5']
-User:Kevo327,"['ar-5', 'es-1', 'en-5', 'de-2', 'fr-3']"
-User:Amir Ghandi,['en-5']
-User:Intforce,"['fr-1', 'en-4', 'ja-1', 'zh-3']"
-User:Ziad Rashad,['en-5']
-User:Redtree21,"['gd-1', 'fr-3', 'de-1']"
+User:Kevo327,"['hy', 'hy-wst', 'ar-5', 'en-5', 'fr-3', 'de-2', 'es-1']"
+User:Amir Ghandi,"['fa', 'en-5']"
+User:Intforce,"['de', 'en-4', 'zh-3', 'ja-1', 'fr-1']"
+User:NewManila2000,['simple']
+User:Carigval.97,['es']
+User:Ziad Rashad,"['ar- in english', 'en-5']"
+User:Samwilson,['en']
+User:Redtree21,"['en', 'fr-3', 'de-1', 'gd-1']"
 User:Mateussf,"['pt-3', 'en-2']"
-User:Armatura,"['ru-5', 'az-1', 'es-1', 'en-5', 'la-1']"
-User:Leejordan9,"['la-3', 'el-1', 'en-5', 'de-2', 'it-1', 'fa-1', 'fr-3']"
-User:LinguineFusilli,"['en-4', 'lv-2', 'de-2']"
-User:Wiki.editAnshu,"['hi-3', 'mr-1', 'en-3']"
-User:ActuallyNeverHappened02,['te-1']
-User:A455bcd9,"['en-4', 'es-1', 'oc-2', 'ru-1', 'zh-2', 'tr-1', 'de-1']"
-User:Fahriahmad306,"['en-1', 'su-1', 'jv-1', 'ar-1', 'ms-2']"
-User:Hiwilms,"['ko-1', 'es-1']"
-User:Unnamelessness,['en-3']
-User:JuthaDDA,"['en-2', 'fr-1']"
-User:Digiulio8,"['es-1', 'pt-2']"
-User:Shahramrashidi,['en-3']
-User:AbhigyaDahal,"['es-2', 'hi-4', 'en-4']"
+User:Armatura,"['hy', 'ru-5', 'en-5', 'la-1', 'es-1', 'az-1']"
+User:Leejordan9,"['en', 'en-5', 'fr-3', 'la-3', 'de-2', 'it-1', 'el-1', 'fa-1']"
+User:LinguineFusilli,"['da', 'en-4', 'de-2', 'lv-2']"
+User:Wiki.editAnshu,"['en-3', 'as', 'hi-3', 'mr-1']"
+User:ActuallyNeverHappened02,"['en', 'te-1']"
+User:A455bcd9,"['fr', 'en-4', 'zh-2', 'oc-2', 'de-1', 'tr-1', 'ru-1', 'es-1']"
+User:Fahriahmad306,"['jv-1|alphabet=ya', 'en-1', 'su-1', 'id', 'ar-1', 'ms-2']"
+User:Hiwilms,"['en', 'tl', 'es-1', 'ko-1']"
+User:Unnamelessness,"['zh', 'en-3']"
+User:JuthaDDA,"['ja', 'en-2', 'fr-1']"
+User:Digiulio8,"['en', 'pt-2', 'es-1']"
+User:Shahramrashidi,"['en-3', 'fa-N']"
+User:AbhigyaDahal,"['en-4', 'ne-N', 'hi-4', 'es-2']"
 User:Makkkkus,['en-3']
-User:Kreb,"['it-2', 'nl-1', 'es-1', 'de-2', 'fr-3']"
-User:SomeoneFromPL,"['cy-1', 'en-4']"
-User:Germenfer,"['en-4', 'fr-2']"
-User:Emplexis,"['sa-2', 'la-3', 'de-3']"
-User:AndreyKva,['en-5']
-User:Evan0512,"['pl-1', 'es-4', 'ja-3', 'fr-2']"
-User:Chucheraya20,['en-3']
+User:Kreb,"['en-N', 'fr-3', 'de-2', 'it-2', 'es-1', 'nl-1']"
+User:SomeoneFromPL,"['pl-N', 'en-4|nocat=en', 'cy-1']"
+User:EdH,['en']
+User:Germenfer,"['es-N', 'en-4', 'fr-2']"
+User:Emplexis,"['en', 'de-3', 'la-3', 'sa-2']"
+User:AndreyKva,"['ru', 'en-5']"
+User:Evan0512,"['en', 'zh', 'es-4', 'fr-2', 'pl-1', 'ja-3']"
+User:Chucheraya20,"['en-3', 'es']"
 User:Pranayraj1985,['te-3']
-User:Paraphernalia,"['de-1', 'it-1', 'en-3']"
-User:ReyAlvarez2,['en-2']
-User:Econterms,"['de-1', 'fr-2']"
-User:Justiyaya,"['fr-0', 'zh-3']"
-User:07,"['de-5', 'en-5', 'fr-2']"
-User:AquitaneHungerForce,"['es-2', 'pt-1', 'ca-0', 'la-1', 'de-1']"
-User:Cauan Vinícius,['en-4']
-User:Cantsayhellotoyou,['en-4']
-User:KenBailey,['fr-3']
-User:Kuriosatempel,['en-3']
-User:Rhodonaus,['pt-4']
-User:Whopeehere,['en-2']
-User:Revolution Saga,"['es-2', 'hy-5', 'ru-2']"
-User:Mzajac,"['uk-2', 'fr-1']"
-User:Brankom,"['en-2', 'hu-3', 'ru-1', 'cs-3']"
-User:Niki 24,"['pl-2', 'en-4', 'ru-4']"
-User:ThanmadGR,['en-4']
-User:Kasper2006,"['es-2', 'fr-1', 'en-3']"
-User:MaximusWikipedian,['en-5']
-User:Daniel abdullah,"['en-4', 'ar-2']"
-User:Stars&Stuff553,"['nl-2', 'la-3', 'fr-3', 'zh-1']"
-User:Cal1407,"['jv-1', 'ms-3', 'zh-2', 'en-3']"
+User:Paraphernalia,"['fr', 'en-3', 'de-1', 'it-1']"
+User:ReyAlvarez2,"['es', 'en-2']"
+User:Econterms,"['en', 'fr-2', 'de-1']"
+User:Justiyaya,"['zh-3', 'fr-0']"
+User:07,"['tr', 'en-5', 'de-5', 'fr-2']"
+User:AquitaneHungerForce,"['en', 'es-2', 'pt-1', 'la-1', 'de-1', 'ca-0']"
+User:Cauan Vinícius,"['pt', 'en-4']"
+User:Cantsayhellotoyou,"['fa', 'en-4']"
+User:KenBailey,"['en', 'fr-3']"
+User:Kuriosatempel,"['sv', 'en-3']"
+User:Rhodonaus,"['pt-4', 'es']"
+User:Whopeehere,"['my', 'en-2']"
+User:Revolution Saga,"['en-N', 'es-2', 'hy-5', 'ru-2']"
+User:Mzajac,"['en', 'uk-2', 'fr-1']"
+User:Brankom,"['sk', 'en-2', 'cs-3', 'hu-3', 'ru-1']"
+User:Niki 24,"['uk', 'ru-4', 'en-4', 'pl-2']"
+User:Kasper2006,"['it-N', 'en-3', 'es-2', 'fr-1']"
+User:MaximusWikipedian,"['en-5', 'es-N']"
+User:Daniel abdullah,"['ar-2', 'en-4', 'ckb']"
+User:Stars&Stuff553,"['en-N', 'zh-1']"
+User:Cal1407,"['id', 'ms-3', 'en-3', 'zh-2', 'jv-1']"
 User:Tigerency25,['en-3']
-User:LuisCG11,['en-3']
-User:Tarawneh,['de-1']
-User:Gjdhowls,"['ms-2', 'en-3']"
-User:Neumannk,['nl-4']
-User:3PPYB6,"['es-2', 'zh-1', 'ru-1']"
-User:Skytheunicorn,"['pt-3', 'es-3', 'ar-1']"
-User:Objectivesea,"['no-1', 'de-1', 'fr-2', 'en-5', 'da-1', 'eo-3']"
-User:Jonathan Archer,['en-3']
-User:PenangLion,"['ms-4', 'en-5', 'zh-5']"
-User:C messier,"['fr-2', 'en-3']"
-User:EytanMelech,['fr-2']
-User:Paleorthid,['ru-0']
-User:Firespeaker,"['tr-2', 'es-3', 'tt-2', 'yi-2', 'ru-3', 'mn-2', 'fr-3', 'uz-2', 'kk-3', 'ky-3']"
-User:ZeroApocalypse,['en-3']
-User:Richard923888,"['ja-1', 'ko-0', 'wuu-1', 'gan-2', 'en-3']"
-User:BlueBlack,"['es-4', 'en-4']"
-User:William Surya Permana,['en-3']
-User:AlexExpensive,"['en-2', 'fr-1']"
-User:Pikaryaa,['ja-2']
-User:Airtransat236,"['es-1', 'en-4']"
-User:NiCh-919735,['en-4']
-User:Tobias1984,['es-1']
-User:BiblioQC,"['pt-1', 'ca-2', 'ru-1', 'es-1']"
-User:AlbertBickford,['als-2']
-User:Petewarrior,"['ja-1', 'ru-1']"
-User:Artem.G,"['he-1', 'en-5']"
-User:Nihonfreak,"['fi-1', 'en-4', 'ja-2']"
-User:Spodle,"['tl-3', 'de-0', 'ko-0']"
-User:Mufti Nasution,"['en-2', 'ms-3', 'ar-1', 'sg-2']"
-User:CarrotPieFI,"['fr-0', 'fi-2']"
-User:Golem08,['fr-2']
-User:SaHiB.SHaKHaYeV,"['en-2', 'ru-5', 'tr-5']"
-User:Carnby,['ary-0']
-User:Yollug tigin,"['en-4', 'fr-1']"
-User:PoetishBookwormus,"['sw-1', 'es-3', 'fr-5']"
-User:Ethanbas,"['he-4', 'es-1', 'ru-4']"
-User:AT44,"['de-3', 'en-4']"
-User:NATNUN,['en-3']
-User:Areumin,"['es-2', 'ko-1']"
-User:Ser!,"['en-5', 'ga-5']"
-User:Drenisa,"['sh-3', 'it-1', 'en-3', 'bs-3']"
-User:Franco el estudiante,"['pt-1', 'ru-1', 'de-1', 'it-1', 'en-3']"
-User:Janka1410,['en-3']
+User:LuisCG11,"['es', 'en-3']"
+User:Tarawneh,"['en', 'ar', 'de-1']"
+User:Baah Thomas,['en']
+User:Gjdhowls,"['zh', 'en-3', 'ms-2']"
+User:Neumannk,"['en', 'nl-4']"
+User:3PPYB6,"['en-N', 'es-2', 'zh-1', 'ru-1']"
+User:Skytheunicorn,"['en', 'es-3', 'pt-3', 'ar-1']"
+User:Objectivesea,"['en-5', 'eo-3', 'fr-2', 'de-1', 'da-1', 'no-1']"
+User:Jonathan Archer,"['en-3', 'ro']"
+User:RockyMasum,['bn']
+User:Mcvti,['en-N']
+User:PenangLion,"['zh-5', 'en-5', 'ms-4']"
+User:C messier,"['el', 'en-3', 'fr-2']"
+User:Sahaib,['en']
+User:EytanMelech,"['en-N', 'fr-2']"
+User:RedPanda25,['en']
+User:Haidit,['th']
+User:IshChasidecha,['en-us']
+User:Normchou,['wuu']
+User:Paleorthid,"['en', 'ru-0']"
+User:Firespeaker,"['en', 'ru-3', 'ky-3', 'kk-3', 'fr-3', 'es-3', 'mn-2', 'uz-2', 'tt-2', 'yi-2', 'tr-2']"
+User:ZeroApocalypse,"['en-3', 'zh-yue']"
+User:Richard923888,"['zh-N', 'zh-yue-N', 'gan-2', 'en-3', 'ja-1', 'ko-0']"
+User:BlueBlack,"['fa', 'en-4', 'es-4']"
+User:William Surya Permana,"['id', 'en-3']"
+User:AlexExpensive,"['es-N', 'en-2', 'fr-1']"
+User:Pikaryaa,"['en', 'ja-2']"
+User:Airtransat236,"['fr', 'en-4', 'es-1']"
+User:Liaton9000,['en']
+User:NiCh-919735,"['en-4', 'ru-N', 'uk-N']"
+User:Tobias1984,"['de', 'en', 'es-1']"
+User:BiblioQC,"['fr', 'en', 'ca-2', 'pt-1', 'ru-1', 'es-1']"
+User:Petewarrior,"['id', 'ja-1', 'ru-1']"
+User:Artem.G,"['en-5', 'ru-N', 'be-N', 'he-1']"
+User:Etriusus,['en']
+User:Nihonfreak,"['es', 'en-4', 'ja-2', 'fi-1']"
+User:Spodle,"['en', 'tl-3', 'ko-0', 'de-0']"
+User:Mufti Nasution,"['id', 'en-2', 'ar-1', 'ms-3']"
+User:Ilenart626,['en']
+User:CarrotPieFI,"['en', 'fi-2', 'fr-0']"
+User:Golem08,"['en', 'fr-2']"
+User:Yollug tigin,"['tr', 'en-4', 'fr-1']"
+User:PoetishBookwormus,"['en', 'fr-5', 'es-3', 'sw-1']"
+User:Ethanbas,"['en', 'ru-4', 'he-4', 'es-1']"
+User:AT44,"['sq', 'en-4', 'de-3']"
+User:NATNUN,"['es', 'en-3']"
+User:Areumin,"['en', 'tl', 'es-2', 'ko-1']"
+User:Ser!,"['ga-5', 'en-5']"
+User:Drenisa,"['sq', 'en-3', 'bs-3', 'sh-3', 'it-1']"
+User:Nyansama02,"['en', 'ms']"
+User:Franco el estudiante,"['es', 'en-3', 'de-1', 'it-1', 'ru-1', 'pt-1']"
+User:Janka1410,"['be', 'ru', 'en-3']"
 User:Metuboy,"['es-5', 'en-4', 'tr-5']"
-User:Lasha-george,"['en-2', 'ru-3']"
-User:Andor127,"['de-1', 'sr-3', 'en-5']"
-User:Nightdevil,"['ar-1', 'en-3', 'fr-1']"
-User:Dousaer,['en-4']
-User:Aholtman,"['la-1', 'fr-2', 'ru-2', 'en-3', 'nds-3']"
-"User:Cow me, please!",['fr-4']
-User:Balonlon,"['nl-4', 'he-4', 'en-5']"
-User:TheManishPanwar,"['sa-1', 'hi-5', 'en-3']"
-User:Mhorg,"['en-2', 'ru-1']"
-User:Atsumoo,['ja-2']
-User:Western.galilee,"['ar-2', 'en-4', 'fr-1']"
-User:Olympian,"['ru-5', 'fr-2', 'hy-4']"
-User:Pichemist,"['de-2', 'en-5']"
-User:IXCat,"['pt-2', 'en-5', 'fr-1']"
-User:Meganenohito,['en-2']
-User:Pianolettuce,"['es-2', 'ru-1']"
-User:ZeldagamerPT,"['es-1', 'en-4']"
-User:Frecks,['it-2']
-User:Joi,['ja-2']
-User:Gaioa,"['no-1', 'de-1', 'en-5', 'da-1', 'ja-0']"
-User:Tidjani Saleh,"['ca-2', 'en-4', 'fr-3', 'ar-2', 'eo-1']"
-User:Magawla61,"['nl-2', 'tr-4', 'de-2', 'en-3']"
-User:Cestgeorge,['en-4']
-User:Maniakilljoy97,['en-3']
-User:Lkitrossky,"['he-2', 'en-3']"
-User:Graearms,['de-1']
-User:Giosal,"['fr-3', 'en-4', 'ru-4']"
-User:BaduFerreira,"['fr-0', 'id-0', 'es-1']"
-User:AlbusTheWhite,"['koi-3', 'fr-3']"
+User:Lasha-george,"['ka', 'en-2', 'ru-3']"
+User:AdmiralAckbar1977,['en-N']
+User:Andor127,"['hu', 'en-5', 'sr-3', 'de-1']"
+User:Nightdevil,"['fa', 'en-3', 'fr-1', 'ar-1']"
+User:Dousaer,"['nl', 'en-4']"
+User:BetweenCupsOfTea,['ar']
+User:Michael pirrello,['en']
+User:Mosvi2014,['en']
+User:Bujsaran,"['en', 'th']"
+User:Actualcpscm,"['en', 'de', 'it-3']"
+User:Aholtman,"['de', 'nds-3', 'en-3', 'fr-2', 'ru-2', 'la-1']"
+"User:Cow me, please!","['en', 'he', 'fr-4']"
+User:Balonlon,"['en-5', 'he-4', 'nl-4']"
+User:TheManishPanwar,"['hi', 'hi-5', 'sa-1', 'en-3']"
+User:Fats40boy11,['en']
+User:Mhorg,"['it-N', 'en-2', 'ru-1']"
+User:Atsumoo,"['en-N', 'ja-2']"
+User:Western.galilee,"['en-4', 'de', 'ar-2', 'fr-1']"
+User:Olympian,"['en', 'ru-5', 'hy-4', 'fr-2']"
+User:Pichemist,"['mt', 'en-5', 'de-2']"
+User:IXCat,"['es', 'gl', 'en-5', 'pt-2', 'fr-1']"
+User:Meganenohito,"['ja', 'en-2']"
+User:Pianolettuce,"['en', 'es-2', 'ru-1']"
+User:ZeldagamerPT,"['pt-PT', 'en-4']"
+User:BlueCanOfPeas,['en']
+User:Oli2000s,['es-mx']
+User:Frecks,"['en', 'it-2']"
+User:Joi,"['en', 'ja-2']"
+User:Gaioa,"['en-5', 'sv', 'da-1', 'no-1', 'de-1', 'ja-0']"
+User:Tidjani Saleh,"['es', 'en-4', 'fr-3', 'ar-2', 'ca-2', 'eo-1']"
+User:Magawla61,"['en-3', 'tr-4', 'nl-2', 'de-2']"
+User:MaterialWorks,['bar']
+User:Cestgeorge,"['bar', 'fr', 'en-4']"
+User:Maniakilljoy97,"['it', 'en-3']"
+User:Lkitrossky,"['ru', 'he-2', 'en-3']"
+User:Clyde H. Mapping,['en']
+User:Graearms,"['en', 'de-1']"
+User:Giosal,"['ka', 'ru-4', 'en-4', 'fr-3']"
+User:BaduFerreira,"['pt', 'en', 'es-1', 'fr-0', 'id-0']"
+User:AlbusTheWhite,['fr-3']
 User:CareAhLine,['es-3']
-User:Gamazations,"['tr-2', 'ar-5', 'de-1', 'it-3']"
-User:Garrettw87,['ang-2']
-User:Maxime12346,['en-4']
-User:Misha Wolf,['cs-1']
-User:63616e,"['nl-0', 'de-0', 'fr-0', 'es-0', 'pt-0']"
-User:Lisenka92,['en-4']
-User:ElementSix,"['de-2', 'en-4']"
-User:Ted52,"['la-1', 'en-5', 'fr-1']"
-User:OttawaPoliticsGuy,"['de-3', 'fr-2']"
-User:ABF992,"['es-3', 'fr-3', 'it-2']"
-User:Hakimi97,['en-2']
-User:Arcoria,"['es-3', 'it-3', 'fr-5', 'la-1', 'en-5']"
-User:Porantim,"['en-2', 'fr-0', 'es-1', 'gl-1']"
-User:Kline,['fr-1']
+User:Fahads1982,['ur']
+User:SandeepKumarMeena,['hi']
+User:Maxime12346,"['fr', 'en-4']"
+User:Misha Wolf,"['en', 'cs-1']"
+User:Candleblox,"['en-N', 'ja-N']"
+User:PaulGamerBoy360,"['en-us', 'en']"
+User:63616e,"['en', 'tr', 'fr-0', 'es-0', 'de-0', 'nl-0', 'pt-0']"
+User:Losipov,['en-N']
+User:Lisenka92,"['pl', 'en-4']"
+User:EvoSwatch,['id']
+User:Mellamelina,['en']
+User:ElementSix,"['bg', 'en-4', 'de-2']"
+User:Ted52,"['de', 'en-5', 'fr-1', 'la-1']"
+User:OttawaPoliticsGuy,"['en', 'de-3', 'fr-2']"
+User:ABF992,"['es-3', 'it-2', 'fr-3', 'en']"
+User:Hakimi97,"['en-2', 'ms', 'zh']"
+User:Arcoria,"['en-5', 'fr-5', 'it-3', 'es-3', 'la-1']"
+User:Porantim,"['pt', 'en-2', 'es-1', 'gl-1', 'fr-0']"
+User:Kline,"['en-N', 'fr-1']"
