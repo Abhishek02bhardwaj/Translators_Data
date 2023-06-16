@@ -3,3 +3,8 @@ This repository is storehouse of all the research data I am extracting for the p
 
 *AW: Could include a description and usage instructions for each script, or inline.*
 
+# Installing
+
+```
+pip install -r requirements.txt
+```
