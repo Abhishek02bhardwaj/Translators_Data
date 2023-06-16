@@ -13,31 +13,18 @@ allowed_languages = ['aa', 'ab', 'ace', 'ady', 'af', 'ak', 'als', 'alt', 'am', '
 
 def get_user_titles_with_babel_from_csv(csv_file):
     titles = []
-    with open(csv_file, 'r', encoding='utf-8') as file:
-        reader = csv.reader(file)
-        next(reader)  # Skip header row if present
+    with open(csv_file, encoding='utf-8') as file:
+        reader = csv.DictReader(file)
         for row in reader:
-            titles.append("User:" + row[1])  # Assuming usernames are in the second column
-    return titles[0:]
+            titles.append("User:" + row['username'])  # Assuming usernames are in the second column
+    return titles
 
 
 def extract_language_codes(template_text):
-    code_pattern = r"(?<=\|)([^\|\[\]]+)(?=\|)"
-    languages = re.findall(code_pattern, template_text)
-    first_element = re.search(r"^[^\|]+", template_text)
-    last_element = re.search(r"[^\|]+$", template_text)
+	raw_parameters = template_text.split("|")
+	languages = [r.strip() for r in raw_parameters if r]
 
-    if first_element:
-        first_element = first_element.group()
-        languages.append(re.sub(r"^\['", '', first_element))
-
-    if last_element:
-        last_element = last_element.group()
-        last_element = re.sub(r"'\]$", '', last_element)
-        if last_element:
-            languages.append(last_element)
-
-    return languages
+	return languages
 
 
 # AW: Split this function so that the parsing can be tested separately from fetching.
@@ -50,38 +37,41 @@ def find_babel_languages(title):
 
     response = requests.get(url, params=params)
     if response.status_code == 200:
-        content = response.text
-        babel_templates = re.findall(r"\{\{Babel((?:(?!\{\{Babel)[^{}])+)\}\}", content, re.IGNORECASE)
-        # print("\n")
-        # print("title:", title)
-        # print("babel_templates:", babel_templates)
-        language_claims = []
-        if babel_templates:
-            for babel_template in babel_templates:
-                user_text = str(babel_template)
-                user_languages = extract_language_codes(user_text)
-                # print("user_languages:", user_languages)
-                valid_user_languages = set()  # Use a set to store unique language codes
-                for lang in user_languages:
-                    sub_languages = lang.split('|')
-                    # print("sub_languages:", sub_languages)
-                    for sub_lang in sub_languages:
-                        sub_lang = sub_lang.strip()  # Strip leading and trailing spaces
-                        sub_lang = sub_lang.rstrip('\n')  # Remove any trailing '/n' characters
-                        if '-' in sub_lang:
-                            language_code, proficiency = sub_lang.rsplit('-', 1)  # Split on the last '-'
-                            if language_code in allowed_languages:
-                                valid_user_languages.add(sub_lang)  # Add unique language codes to the set
-                        elif '|' not in sub_lang and sub_lang in allowed_languages:
-                            valid_user_languages.add(sub_lang)  # Add unique language codes to the set
+        return title, parse_babel_templates(response.text)
+    else:
+        return title, []
 
-                language_claims.extend(valid_user_languages)  # Extend the list with valid user languages
 
-                # print("valid_user_languages:", valid_user_languages)
-                # print("language_claims:", language_claims)
-        return title, language_claims
+def parse_babel_templates(content):
+    # AW: What's the nested, negative "{{Babel" lookahead for?
+    babel_templates = re.findall(r"\{\{Babel((?:(?!\{\{Babel)[^{}])+)\}\}", content, re.IGNORECASE)
+    # print("\n")
+    # print("title:", title)
+    # print("babel_templates:", babel_templates)
+    language_claims = []
+    if babel_templates:
+        for babel_template in babel_templates:
+            user_text = str(babel_template)
+            user_languages = extract_language_codes(user_text)
+            # print("user_languages:", user_languages)
+            valid_user_languages = set()  # Use a set to store unique language codes
+            for sub_lang in user_languages:
+                sub_lang = sub_lang.strip()  # Strip leading and trailing spaces
+                if '-' in sub_lang:
+                    # AW: `proficiency` isn't used yet; and does the wrong thing
+                    # for hyphenated languages, for example "zh-foo" will
+                    # validate because "zh" is allowed.
+                    language_code, proficiency = sub_lang.rsplit('-', 1)  # Split on the last '-'
+                    if language_code in allowed_languages:
+                        valid_user_languages.add(sub_lang)  # Add unique language codes to the set
+                elif '|' not in sub_lang and sub_lang in allowed_languages:
+                    valid_user_languages.add(sub_lang)  # Add unique language codes to the set
 
-    return title, []
+            language_claims.extend(valid_user_languages)  # Extend the list with valid user languages
+
+            # print("valid_user_languages:", valid_user_languages)
+            # print("language_claims:", language_claims)
+    return language_claims
 
 
 # CSV file path

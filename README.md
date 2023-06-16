@@ -8,3 +8,9 @@ This repository is storehouse of all the research data I am extracting for the p
 ```
 pip install -r requirements.txt
 ```
+
+# Running tests
+
+```
+pytest
+```
