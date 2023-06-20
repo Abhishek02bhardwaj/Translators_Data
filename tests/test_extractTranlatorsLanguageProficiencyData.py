@@ -1,29 +1,21 @@
-import extractTranlatorsLanguageProficiencyData as extract
+import unittest
+from translators_database import extractTranlatorsLanguageProficiencyData as extract
 
+class TestExtract(unittest.TestCase):
+    def setUp(self):
+        self.allowed_languages = extract.get_allowed_languages_from_csv('language_codes.csv')
 
-def test_extract_language_codes():
-    assert extract.extract_language_codes("en") == ["en"]
-    assert extract.extract_language_codes("|en") == ["en"]
-    assert extract.extract_language_codes("|en-1") == ["en-1"]
-    assert extract.extract_language_codes("|en-N") == ["en-N"]
-    assert extract.extract_language_codes("|zh-yue-N") == ["zh-yue-N"]
-    assert extract.extract_language_codes("|zh-yue-N") == ["zh-yue-N"]
-    assert extract.extract_language_codes("|en ") == ["en"]
-    assert extract.extract_language_codes("| en-N") == ["en-N"]
-    assert extract.extract_language_codes("\n | en-N") == ["en-N"]
-    assert extract.extract_language_codes("foo") == ["foo"]
+    def test_parse_babel_templates(self):
+        self.assertEqual(extract.parse_babel_templates("Foo", self.allowed_languages), [])
+        self.assertEqual(extract.parse_babel_templates("{{Babel}}", self.allowed_languages), [])
+        self.assertEqual(extract.parse_babel_templates("{{Babel|en}}", self.allowed_languages), ["en"])
+        self.assertEqual(extract.parse_babel_templates("{{Babel|en-N}}", self.allowed_languages), ["en-N"])
+        self.assertEqual(extract.parse_babel_templates("{{Babel | en-N}}", self.allowed_languages), ["en-N"])
+        self.assertEqual(extract.parse_babel_templates("{{Babel\n | en-N}}", self.allowed_languages), ["en-N"])
+        self.assertEqual(extract.parse_babel_templates("{{Babel|zh-yue}}", self.allowed_languages), ["zh-yue"])
+        self.assertEqual(extract.parse_babel_templates("{{Babel|zh-yue}}", self.allowed_languages), ["zh-yue"])
+        self.assertEqual(extract.parse_babel_templates("{{Babel|foo}}", self.allowed_languages), [])
+        self.assertEqual(extract.parse_babel_templates("{{Babel|zh-foo}}", self.allowed_languages), [])
 
-
-def test_parse_babel_templates():
-    assert extract.parse_babel_templates("Foo") == []
-    assert extract.parse_babel_templates("{{Babel}}") == []
-    assert extract.parse_babel_templates("{{Babel|en}}") == ["en"]
-    assert extract.parse_babel_templates("{{Babel|en-N}}") == ["en-N"]
-    assert extract.parse_babel_templates("{{Babel | en-N}}") == ["en-N"]
-    assert extract.parse_babel_templates("{{Babel\n | en-N}}") == ["en-N"]
-    assert extract.parse_babel_templates("{{Babel|zh-yue}}") == ["zh-yue"]
-    assert extract.parse_babel_templates("{{Babel|zh-yue}}") == ["zh-yue"]
-    assert extract.parse_babel_templates("{{Babel|foo}}") == []
-    
-    # Known to fail
-    # assert extract.parse_babel_templates("{{Babel|zh-foo}}") == []
+if __name__ == '__main__':
+    unittest.main()
