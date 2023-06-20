@@ -3,6 +3,7 @@ import re
 import csv
 
 
+# AW: Should be merged with extractTranslators in future work.
 def get_allowed_languages_from_csv(csv_file):
     allowed_languages = []
     with open(csv_file, 'r', encoding='utf-8') as file:

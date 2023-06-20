@@ -1,4 +1,6 @@
 import unittest
+# AW: pytest doesn't know where to find this module--maybe you have a setup.py
+# or something locally, which should be merged into the repo?
 from translators_database import translatorsProficiencyDataByUserTemplate as extract
 
 class TestExtract(unittest.TestCase):
@@ -6,6 +8,7 @@ class TestExtract(unittest.TestCase):
         self.allowed_languages = extract.get_allowed_languages_from_csv('language_codes.csv')
 
     def test_parse_babel_templates(self):
+		# AW: I find unittest to be a bit heavier than just pytest with `assert`.
         self.assertEqual(extract.parse_babel_templates("Foo", self.allowed_languages), [])
         self.assertEqual(extract.parse_babel_templates("{{user}}", self.allowed_languages), [])
         self.assertEqual(extract.parse_babel_templates("{{user en}}", self.allowed_languages), ["en"])
