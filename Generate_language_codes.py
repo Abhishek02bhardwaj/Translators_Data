@@ -16,7 +16,6 @@ if response.status_code == 200:
     for code in language_codes:
         combinations.append(code)
         combinations.append(code + "-N")
-        combinations.append(code + "-n")
         combinations.append(code + "-0")
         combinations.append(code + "-1")
         combinations.append(code + "-2")
