@@ -94,7 +94,7 @@ def create_user_language_csv(csv_file, output_file):
 
     with open(output_file, 'w', encoding='utf-8', newline='') as file:
         writer = csv.writer(file)
-        writer.writerow(["Username", "Language"])
+        writer.writerow(["username", "language"])
 
         for title, languages in filtered_results:
             language_string = '[' + ', '.join([f"'{lang}'" for lang in languages]) + ']'

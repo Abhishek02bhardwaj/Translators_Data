@@ -1,35 +1,28 @@
 import requests
-import re
 import csv
 
-url = "https://en.wikipedia.org/w/index.php?title=List_of_Wikipedias&action=edit&section=9"
+url = "https://meta.wikimedia.org/w/api.php?action=sitematrix&format=json"
 response = requests.get(url)
+
 if response.status_code == 200:
-    content = response.text
+    data = response.json()
 
-    # Extract language codes using regular expressions
-    pattern = r"\{\{WP7\|([^\|\}]+)"
-    language_codes = re.findall(pattern, content)
+    language_codes = []
+    sitematrix = data.get("sitematrix", {})
+    for group_key, group_value in sitematrix.items():
+        if group_key.isdigit() and "code" in group_value:
+            language_code = group_value["code"]
+            language_codes.append(language_code)
 
-    # Generate six combinations for each language code
-    combinations = []
-    for code in language_codes:
-        combinations.append(code)
-        combinations.append(code + "-N")
-        combinations.append(code + "-0")
-        combinations.append(code + "-1")
-        combinations.append(code + "-2")
-        combinations.append(code + "-3")
-        combinations.append(code + "-4")
-        combinations.append(code + "-5")
+            with open("language_codes_1.csv", "w", encoding="utf-8", newline="") as file:
+                writer = csv.writer(file)
+                writer.writerow(["Language Code"])
+                for code in language_codes:
+                    writer.writerow([f"{code}"])
+                    writer.writerow([f"{code}-N"])
+                    for i in range(6):
+                        writer.writerow([f"{code}-{i}"])
 
-    # Create a CSV file and write the language codes
-    output_file = "language_codes.csv"
-    with open(output_file, "w", encoding="utf-8", newline="") as file:
-        writer = csv.writer(file)
-        writer.writerow(["Language Code"])  # Write header row
-        writer.writerows([[code] for code in combinations])
-
-    print("CSV file created successfully:", output_file)
+    print("Language codes saved successfully.")
 else:
-    print("Failed to retrieve the Wikipedia page.")
+    raise ConnectionError("Failed to retrieve the Wikipedia language data.")

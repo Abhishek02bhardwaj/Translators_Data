@@ -20,7 +20,7 @@ def get_user_titles_with_babel_from_csv(csv_file):
         next(reader)  # Skip header row if present
         for row in reader:
             titles.append("User:" + row[1])  # Assuming usernames are in the second column
-    return titles[6000:]
+    return titles[0:]
 
 
 def extract_language_codes(template_text):
@@ -92,7 +92,7 @@ def create_user_language_csv(csv_file, output_file):
 
     with open(output_file, 'w', encoding='utf-8', newline='') as file:
         writer = csv.writer(file)
-        writer.writerow(["Username", "Language"])
+        writer.writerow(["username", "language"])
 
         for title, languages in filtered_results:
             language_string = '[' + ', '.join([f"'{lang}'" for lang in languages]) + ']'
@@ -103,5 +103,5 @@ def create_user_language_csv(csv_file, output_file):
 
 if __name__ == '__main__':
     csv_file = 'usernames.csv'
-    output_file = 'user_languages_babel_template_3.csv'
+    output_file = 'user_languages.csv'
     create_user_language_csv(csv_file, output_file)
