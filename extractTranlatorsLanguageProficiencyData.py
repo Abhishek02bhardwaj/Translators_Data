@@ -23,6 +23,7 @@ def get_user_titles_with_babel_from_csv(csv_file):
     return titles[0:]
 
 
+# AW: See simplified implementation in review-1
 def extract_language_codes(template_text):
     code_pattern = r"(?<=\|)([^\|\[\]]+)(?=\|)"
     languages = re.findall(code_pattern, template_text)
@@ -49,6 +50,10 @@ def fetch_content(url, params):
     return None
 
 
+# AW: suggest to split into units
+# 	extract snippets
+# 	parse template into parameters
+# 	filter to languages / and optionally warn for bad data
 def parse_babel_templates(content, allowed_languages):
     babel_templates = re.findall(r"\{\{Babel((?:(?!\{\{Babel)[^{}])+)\}\}", content, re.IGNORECASE)
     language_claims = []
@@ -88,6 +93,7 @@ def create_user_language_csv(csv_file, output_file):
     allowed_languages = get_allowed_languages_from_csv('language_codes.csv')
     titles = get_user_titles_with_babel_from_csv(csv_file)
     results = [find_babel_languages(title, allowed_languages) for title in titles]
+    # AW: we might want to keep the empty data as well?
     filtered_results = [(title, languages) for title, languages in results if languages]
 
     with open(output_file, 'w', encoding='utf-8', newline='') as file:
@@ -95,6 +101,9 @@ def create_user_language_csv(csv_file, output_file):
         writer.writerow(["username", "language"])
 
         for title, languages in filtered_results:
+            # AW: Use a more standard format such as json.dumps or
+            # "|".join(foo), currently this needs to be parsed with
+            # ast.literal_eval and couples us to Python more than necessary.
             language_string = '[' + ', '.join([f"'{lang}'" for lang in languages]) + ']'
             writer.writerow([title, language_string])
 
